@@ -1,0 +1,30 @@
+=== MEMORY SEGMENT BOUNDARIES ===
+
+--- TEXT SEGMENT (Code) ---
+0x7f8d74ccf322
+0x7f8d74ccf229
+
+--- DATA SEGMENT (Initialized Globals) ---
+0x7f8d74cd2010 100
+0x7f8d74cd2014 200
+
+--- BSS SEGMENT (Uninitialized Globals) ---
+0x7f8d74cd2154 0
+0x7f8d74cd2158 0
+
+--- STACK SEGMENT (Cross-function comparison) ---
+0x7fffdd74e71c
+0x7fffdd74e6e8
+0x7fffdd74e6f4
+
+--- HEAP SEGMENT (Dynamic Allocation) ---
+0x7fffd57f72b0
+0x7fffd57f76c0
+Heap grows: UP
+
+=== RELATIVE POSITION SUMMARY ===
+Text vs Data: TEXT below DATA
+Data vs BSS: DATA below BSS
+BSS vs Heap: BSS below HEAP
+Heap vs Stack: HEAP below STACK
+Gap (stack - heap): 133526636 bytes
